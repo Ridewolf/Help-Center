@@ -1,0 +1,40 @@
+name: Product support
+description: Ask for help using the Ridewolf Dashboard.
+title: "[Support]: "
+labels: [support]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include passwords, API keys, payment data, personal data, or other secrets in a public issue.
+  - type: textarea
+    id: goal
+    attributes:
+      label: What are you trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include the page, steps, and the exact error message if one appeared.
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: Chrome 126
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Impact
+      options: [Question, One task is blocked, Several users are blocked, Service is unavailable]
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed credentials, personal data, payment data, and other confidential information.
+          required: true

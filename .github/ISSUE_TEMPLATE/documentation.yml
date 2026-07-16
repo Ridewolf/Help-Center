@@ -1,0 +1,35 @@
+name: Documentation issue
+description: Report missing, unclear, or outdated documentation.
+title: "[Docs]: "
+labels: [documentation]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping us improve the Ridewolf Help Center.
+  - type: input
+    id: page
+    attributes:
+      label: Page or article
+      description: Paste a link or the article path.
+      placeholder: docs/en/operations/fleet/vehicles.md
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options: [English, Russian, Romanian, All languages]
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What should be improved?
+      description: Explain what is missing, incorrect, or difficult to understand.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested change
+      description: If possible, describe the wording or information you expected.
