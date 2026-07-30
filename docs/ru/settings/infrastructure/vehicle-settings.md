@@ -1,8 +1,8 @@
-# Vehicle Settings
+# Vehicle Rules
 
-Страница Vehicle Settings (`/settings/vehicle-settings`) — это **каталог моделей транспорта**, которые Ridewolf умеет эксплуатировать: _Xiaomi M365_, _Ninebot Max G30_, _Segway F40_ и т.д. Каждая строка здесь — **шаблон модели**: переиспользуемый набор тарифов, технических лимитов, требований к фото-пруфам и тегов, который прикрепляется к конкретным физическим [vehicles](../../operations/fleet/vehicles.md) через [форму машины](../../operations/fleet/vehicle-create-edit.md).
+Страница Vehicle Rules (`/settings/vehicle-rules`) — это **каталог моделей транспорта**, которые Ridewolf умеет эксплуатировать: _Xiaomi M365_, _Ninebot Max G30_, _Segway F40_ и т.д. Каждая строка здесь — **шаблон модели**: переиспользуемый набор тарифов, технических лимитов, требований к фото-пруфам и тегов, который прикрепляется к конкретным физическим [vehicles](../../operations/fleet/vehicles.md) через [форму машины](../../operations/fleet/vehicle-create-edit.md).
 
-Требуется право: **Vehicle Settings** (`e7f8g9`). Под-права гейтят `create` / `edit` / `delete`.
+Требуется право: **Vehicle Rules** (`e7f8g9`). Под-права гейтят `create` / `edit` / `delete`.
 
 ## Model vs vehicle instance
 
@@ -49,7 +49,7 @@ Quick-edit-клики открывают маленький диалог с од
 | **Auto-refresh** | —        | Опрашивает список с интервалом; вкл/выкл; иконка крутится во время загрузки                                                             |
 | **Import**       | `create` | Выбор JSON-файла (формат экспорта). Каждый элемент создаётся через `create`; теги и тарифы сбрасываются — перенавешивайте вручную после |
 | **Export**       | —        | Открывает диалог: экспорт текущей страницы / всего отфильтрованного / конкретных страниц в `vehicle-models-export.json`                 |
-| **+ Create**     | `create` | Переход на `/settings/vehicle-settings/create`                                                                                          |
+| **+ Create**     | `create` | Переход на `/settings/vehicle-rules/create`                                                                                             |
 
 ## Действия над строкой
 
@@ -57,15 +57,15 @@ Quick-edit-клики открывают маленький диалог с од
 
 | Действие         | Право    | Что делает                                                                                                                 |
 | ---------------- | -------- | -------------------------------------------------------------------------------------------------------------------------- |
-| **View details** | —        | Открывает деталь модели `/settings/vehicle-settings/:id` (вкладки General / Technical / History)                           |
-| **Edit**         | `edit`   | Открывает форму редактирования (`/settings/vehicle-settings/:id/edit`) с полным набором полей                              |
+| **View details** | —        | Открывает деталь модели `/settings/vehicle-rules/:id` (вкладки General / Technical / History)                              |
+| **Edit**         | `edit`   | Открывает форму редактирования (`/settings/vehicle-rules/:id/edit`) с полным набором полей                                 |
 | **Delete**       | `delete` | Деструктивный confirm-диалог с задержкой 3 секунды перед активацией кнопки подтверждения. Строка модели исчезает из списка |
 
 Клик по самой строке (вне quick-edit чипов) ведёт на **View details**.
 
 ## Форма Create / Edit
 
-`+ Create` (`/settings/vehicle-settings/create`) и _Edit_ (`/settings/vehicle-settings/:id/edit`) делят один лейаут: форма-карточка слева, контекстный сайдбар **Field Guide** справа с live-превью модели.
+`+ Create` (`/settings/vehicle-rules/create`) и _Edit_ (`/settings/vehicle-rules/:id/edit`) делят один лейаут: форма-карточка слева, контекстный сайдбар **Field Guide** справа с live-превью модели.
 
 Форма сгруппирована в секции — Create показывает только 7 основных полей; Edit добавляет 3 доп. под-секции (Tech Specs, Auto Policies, Document Requirements) для продвинутых настроек.
 

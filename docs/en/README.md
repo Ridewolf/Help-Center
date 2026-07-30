@@ -13,6 +13,7 @@ Browse all Ridewolf guides by area.
 
 ## apps
 
+- [Error Logs](apps/tools/error-logs.md)
 - [Replay Player](apps/tools/replay-player.md)
 
 ## dashboard
@@ -44,6 +45,9 @@ Browse all Ridewolf guides by area.
 - [Vehicle — Create & Edit](operations/fleet/vehicle-create-edit.md)
 - [Vehicle Detail](operations/fleet/vehicle-detail.md)
 - [Vehicles — List](operations/fleet/vehicles.md)
+- [Maintenance Automation](operations/maintenance/automation.md)
+- [Inventory & Parts](operations/maintenance/inventory.md)
+- [Maintenance Tasks](operations/maintenance/tasks.md)
 - [Payments — History](operations/payments/payments.md)
 - [Pending Webhooks](operations/payments/pending-webhooks.md)
 - [Rebalance — Dead Zones](operations/rebalance/dead-zones.md)
@@ -70,15 +74,18 @@ Browse all Ridewolf guides by area.
 - [Operators](settings/access/operators.md)
 - [Roles](settings/access/roles.md)
 - [Alerts & Notifications](settings/administration/alerts-notifications.md)
+- [Payments & Integrations](settings/administration/company-integrations.md)
 - [General](settings/administration/general.md)
 - [Localization](settings/administration/localization.md)
 - [My Company](settings/administration/my-company.md)
+- [Your App: Publisher & Submission](settings/administration/your-app-publisher.md)
+- [Your App (White-Label)](settings/administration/your-app.md)
 - [FAQ Sets](settings/content/faq-sets.md)
 - [Icon Sets](settings/content/icon-sets.md)
 - [Quick Guides](settings/content/quick-guides.md)
 - [IoT Devices](settings/infrastructure/iot.md)
 - [Tags](settings/infrastructure/tags.md)
-- [Vehicle Settings](settings/infrastructure/vehicle-settings.md)
+- [Vehicle Rules](settings/infrastructure/vehicle-settings.md)
 - [Vehicle Tariffs](settings/infrastructure/vehicle-tariffs.md)
 - [Zones](settings/infrastructure/zones.md)
 
@@ -89,6 +96,7 @@ Browse all Ridewolf guides by area.
 - [Park Proof Detail](support/tickets-proofs-chat/park-proof-detail.md)
 - [Park Proof Review](support/tickets-proofs-chat/park-proof-review.md)
 - [Park Proofs — List](support/tickets-proofs-chat/park-proofs.md)
+- [Quest Confirmations](support/tickets-proofs-chat/quest-confirmations.md)
 - [Ticket Auto Review](support/tickets-proofs-chat/ticket-auto-review.md)
 - [Ticket Detail](support/tickets-proofs-chat/ticket-detail.md)
 - [Tickets — List](support/tickets-proofs-chat/tickets.md)

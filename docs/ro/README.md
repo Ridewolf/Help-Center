@@ -13,6 +13,7 @@ Toate ghidurile Ridewolf, grupate pe secțiuni.
 
 ## apps
 
+- [Loguri de erori](apps/tools/error-logs.md)
 - [Replay Player](apps/tools/replay-player.md)
 
 ## dashboard
@@ -44,6 +45,9 @@ Toate ghidurile Ridewolf, grupate pe secțiuni.
 - [Vehicul — Creare și editare](operations/fleet/vehicle-create-edit.md)
 - [Detaliu vehicul](operations/fleet/vehicle-detail.md)
 - [Vehicule — Listă](operations/fleet/vehicles.md)
+- [Automatizarea mentenanței](operations/maintenance/automation.md)
+- [Inventar & piese](operations/maintenance/inventory.md)
+- [Sarcini de mentenanță](operations/maintenance/tasks.md)
 - [Plăți — Istoric](operations/payments/payments.md)
 - [Pending Webhooks](operations/payments/pending-webhooks.md)
 - [Rebalance — Dead Zones](operations/rebalance/dead-zones.md)
@@ -70,15 +74,18 @@ Toate ghidurile Ridewolf, grupate pe secțiuni.
 - [Operatori](settings/access/operators.md)
 - [Roluri](settings/access/roles.md)
 - [Alerte și notificări](settings/administration/alerts-notifications.md)
+- [Plăți & integrări](settings/administration/company-integrations.md)
 - [Setări generale](settings/administration/general.md)
 - [Localizare](settings/administration/localization.md)
 - [Compania mea](settings/administration/my-company.md)
+- [Aplicația ta: publisher & trimitere](settings/administration/your-app-publisher.md)
+- [Aplicația ta (white-label)](settings/administration/your-app.md)
 - [FAQ Sets](settings/content/faq-sets.md)
 - [Icon Sets](settings/content/icon-sets.md)
 - [Quick Guides](settings/content/quick-guides.md)
 - [Dispozitive IoT](settings/infrastructure/iot.md)
 - [Tags](settings/infrastructure/tags.md)
-- [Vehicle Settings](settings/infrastructure/vehicle-settings.md)
+- [Vehicle Rules](settings/infrastructure/vehicle-settings.md)
 - [Vehicle Tariffs (Tarife vehicule)](settings/infrastructure/vehicle-tariffs.md)
 - [Zone](settings/infrastructure/zones.md)
 
@@ -89,6 +96,7 @@ Toate ghidurile Ridewolf, grupate pe secțiuni.
 - [Park Proof — Detaliu](support/tickets-proofs-chat/park-proof-detail.md)
 - [Park Proof Review](support/tickets-proofs-chat/park-proof-review.md)
 - [Park Proofs — Listă](support/tickets-proofs-chat/park-proofs.md)
+- [Confirmări de questuri](support/tickets-proofs-chat/quest-confirmations.md)
 - [Ticket Auto Review](support/tickets-proofs-chat/ticket-auto-review.md)
 - [Ticket — Detaliu](support/tickets-proofs-chat/ticket-detail.md)
 - [Tickete — Listă](support/tickets-proofs-chat/tickets.md)

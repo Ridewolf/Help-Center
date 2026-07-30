@@ -1,8 +1,8 @@
-# Vehicle Settings
+# Vehicle Rules
 
-Pagina Vehicle Settings (`/settings/vehicle-settings`) este **catalogul de modele de vehicule** pe care Ridewolf știe să le opereze — _Xiaomi M365_, _Ninebot Max G30_, _Segway F40_ etc. Fiecare rând aici este un **șablon de model**: un pachet reutilizabil de tarife, limite tehnice, reguli pentru proof-uri foto și etichete, care se atașează vehiculelor [fizice](../../operations/fleet/vehicles.md) prin [formularul de vehicul](../../operations/fleet/vehicle-create-edit.md).
+Pagina Vehicle Rules (`/settings/vehicle-rules`) este **catalogul de modele de vehicule** pe care Ridewolf știe să le opereze — _Xiaomi M365_, _Ninebot Max G30_, _Segway F40_ etc. Fiecare rând aici este un **șablon de model**: un pachet reutilizabil de tarife, limite tehnice, reguli pentru proof-uri foto și etichete, care se atașează vehiculelor [fizice](../../operations/fleet/vehicles.md) prin [formularul de vehicul](../../operations/fleet/vehicle-create-edit.md).
 
-Permisiune necesară: **Vehicle Settings** (`e7f8g9`). Sub-permisiuni protejează `create` / `edit` / `delete`.
+Permisiune necesară: **Vehicle Rules** (`e7f8g9`). Sub-permisiuni protejează `create` / `edit` / `delete`.
 
 ## Model vs instanță de vehicul
 
@@ -49,7 +49,7 @@ Butoane sus-dreapta (vizibilitatea depinde de permisiuni):
 | **Auto-refresh** | —          | Face polling la lista la un interval; toggle on/off; pictograma se rotește în timpul încărcării                                            |
 | **Import**       | `create`   | Alege un fișier JSON (format export). Fiecare item devine un apel `create`; etichetele și tarifele sunt eliminate — reataşează manual după |
 | **Export**       | —          | Deschide un dialog pentru export al paginii curente / tot filtrat / pagini specifice în `vehicle-models-export.json`                       |
-| **+ Create**     | `create`   | Merge la `/settings/vehicle-settings/create`                                                                                               |
+| **+ Create**     | `create`   | Merge la `/settings/vehicle-rules/create`                                                                                                  |
 
 ## Acțiuni pe rând
 
@@ -57,15 +57,15 @@ Meniu cu trei puncte pe fiecare rând:
 
 | Acțiune          | Permisiune | Ce face                                                                                                                                          |
 | ---------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **View details** | —          | Deschide detaliul modelului la `/settings/vehicle-settings/:id` (taburi General / Technical / History)                                           |
-| **Edit**         | `edit`     | Deschide formularul de editare (`/settings/vehicle-settings/:id/edit`) cu setul complet de câmpuri                                               |
+| **View details** | —          | Deschide detaliul modelului la `/settings/vehicle-rules/:id` (taburi General / Technical / History)                                              |
+| **Edit**         | `edit`     | Deschide formularul de editare (`/settings/vehicle-rules/:id/edit`) cu setul complet de câmpuri                                                  |
 | **Delete**       | `delete`   | Dialog destructiv de confirmare cu o întârziere de 3 secunde înainte ca butonul de confirmare să se activeze. Rândul modelului dispare din listă |
 
 Click pe rând în sine (oriunde în afara chipurilor de quick-edit) deschide **View details**.
 
 ## Formular Create / Edit
 
-`+ Create` (`/settings/vehicle-settings/create`) și _Edit_ (`/settings/vehicle-settings/:id/edit`) împart același layout: o carte de formular în stânga, un sidebar contextual **Field Guide** în dreapta cu un preview live al modelului.
+`+ Create` (`/settings/vehicle-rules/create`) și _Edit_ (`/settings/vehicle-rules/:id/edit`) împart același layout: o carte de formular în stânga, un sidebar contextual **Field Guide** în dreapta cu un preview live al modelului.
 
 Formularul este grupat în secțiuni — Create arată doar cele șapte câmpuri principale; Edit adaugă trei sub-secțiuni suplimentare (Tech Specs, Auto Policies, Document Requirements) pentru setări avansate.
 

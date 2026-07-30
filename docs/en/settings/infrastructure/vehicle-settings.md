@@ -1,8 +1,8 @@
-# Vehicle Settings
+# Vehicle Rules
 
-The Vehicle Settings page (`/settings/vehicle-settings`) is the **catalog of vehicle models** that Ridewolf knows how to operate — _Xiaomi M365_, _Ninebot Max G30_, _Segway F40_, and so on. Each row here is a **model template**: a reusable bundle of pricing, technical limits, photo-proof rules, and tags that gets attached to individual physical [vehicles](../../operations/fleet/vehicles.md) via the [vehicle form](../../operations/fleet/vehicle-create-edit.md).
+The Vehicle Rules page (`/settings/vehicle-rules`) is the **catalog of vehicle models** that Ridewolf knows how to operate — _Xiaomi M365_, _Ninebot Max G30_, _Segway F40_, and so on. Each row here is a **model template**: a reusable bundle of pricing, technical limits, photo-proof rules, and tags that gets attached to individual physical [vehicles](../../operations/fleet/vehicles.md) via the [vehicle form](../../operations/fleet/vehicle-create-edit.md).
 
-Permission required: **Vehicle Settings** (`e7f8g9`). Sub-permissions gate `create` / `edit` / `delete`.
+Permission required: **Vehicle Rules** (`e7f8g9`). Sub-permissions gate `create` / `edit` / `delete`.
 
 ## Model vs vehicle instance
 
@@ -49,7 +49,7 @@ Top-right buttons (visibility depends on permissions):
 | **Auto-refresh** | —          | Polls the list at a steady interval; toggle on/off; the icon spins while loading                                              |
 | **Import**       | `create`   | Pick a JSON file (export format). Each item becomes a `create` call; tags and tariffs are stripped — re-attach manually after |
 | **Export**       | —          | Opens a dialog to export current page / all filtered / specific pages as `vehicle-models-export.json`                         |
-| **+ Create**     | `create`   | Goes to `/settings/vehicle-settings/create`                                                                                   |
+| **+ Create**     | `create`   | Goes to `/settings/vehicle-rules/create`                                                                                      |
 
 ## Row actions
 
@@ -57,15 +57,15 @@ Three-dot menu per row:
 
 | Action           | Permission | What it does                                                                                                                 |
 | ---------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| **View details** | —          | Opens the model detail at `/settings/vehicle-settings/:id` (General / Technical / History tabs)                              |
-| **Edit**         | `edit`     | Opens the edit form (`/settings/vehicle-settings/:id/edit`) with the full field set                                          |
+| **View details** | —          | Opens the model detail at `/settings/vehicle-rules/:id` (General / Technical / History tabs)                                 |
+| **Edit**         | `edit`     | Opens the edit form (`/settings/vehicle-rules/:id/edit`) with the full field set                                             |
 | **Delete**       | `delete`   | Destructive confirm dialog with a 3-second delay before the confirm button activates. The model row disappears from the list |
 
 Clicking the row itself (anywhere outside the quick-edit chips) goes to **View details**.
 
 ## Create / Edit form
 
-`+ Create` (`/settings/vehicle-settings/create`) and _Edit_ (`/settings/vehicle-settings/:id/edit`) share the same layout: a form card on the left, a contextual **Field Guide** sidebar on the right with a live preview of the model.
+`+ Create` (`/settings/vehicle-rules/create`) and _Edit_ (`/settings/vehicle-rules/:id/edit`) share the same layout: a form card on the left, a contextual **Field Guide** sidebar on the right with a live preview of the model.
 
 The form is grouped into sections — Create shows only the core seven fields; Edit adds three extra sub-sections (Tech Specs, Auto Policies, Document Requirements) for advanced settings.
 
