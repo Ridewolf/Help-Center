@@ -36,4 +36,17 @@ node scripts/sync-from-dashboard.mjs ../rw-dashboard
 node scripts/check-links.mjs
 ```
 
-The sync replaces `docs/`, rewrites dashboard Help links for GitHub, and rebuilds each language's contents page. Review the resulting diff before committing.
+The sync replaces the dashboard-owned sections of `docs/`, rewrites dashboard Help links for GitHub, and rebuilds each language's contents page. Review the resulting diff before committing.
+
+Three sections are **not** owned by the dashboard sync and are never touched by it:
+
+- `user-app` — rider app guides, imported from the [rw-mcp](https://github.com/Ridewolf/rw-mcp) knowledge base
+- `service-app` — field-operator app guides, imported from the same knowledge base
+- `legal` — Terms of Service and Privacy Policy (English is the binding version; other languages carry a notice page)
+
+Edit these sections directly in this repository, or refresh them from the knowledge base. After adding or removing any article, rebuild the contents pages:
+
+```bash
+node scripts/build-contents.mjs
+node scripts/check-links.mjs
+```

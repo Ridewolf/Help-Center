@@ -1,6 +1,6 @@
 # Ridewolf Help Center
 
-Official documentation and community support for the **Ridewolf Dashboard**, the operations platform for shared-mobility fleets.
+Official documentation and community support for the **Ridewolf platform** for shared-mobility fleets: the operator Dashboard, the Rider App, and the field-operator Service App.
 
 ## Choose your language
 
@@ -10,7 +10,7 @@ Official documentation and community support for the **Ridewolf Dashboard**, the
 | 🇷🇺 Русский | [Открыть документацию](docs/ru/README.md) |
 | 🇷🇴 Română | [Deschide documentația](docs/ro/README.md) |
 
-The Help Center covers fleet operations, rides, customers, payments, support workflows, analytics, dashboard settings, and everyday product features.
+The Help Center covers fleet operations, rides, customers, payments, support workflows, analytics, dashboard settings, and everyday product features — plus guides for the Rider App (`user-app`), the field-operator Service App (`service-app`), and the [Terms of Service and Privacy Policy](docs/en/legal/policies/terms-of-service.md) (`legal`; English is the binding version).
 
 ## Support
 

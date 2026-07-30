@@ -1,6 +1,6 @@
 # Cuprins
 
-Toate ghidurile Ridewolf Dashboard, grupate pe secțiuni.
+Toate ghidurile Ridewolf, grupate pe secțiuni.
 
 [← Help Center](../../README.md)
 
@@ -31,6 +31,11 @@ Toate ghidurile Ridewolf Dashboard, grupate pe secțiuni.
 
 - [Bun venit în Ridewolf Dashboard](getting-started/basics/overview.md)
 
+## legal
+
+- [Politica de confidențialitate Ridewolf](legal/policies/privacy-policy.md)
+- [Termenii și condițiile Ridewolf](legal/policies/terms-of-service.md)
+
 ## operations
 
 - [Client — Creare și editare](operations/customers/client-create-edit.md)
@@ -49,6 +54,16 @@ Toate ghidurile Ridewolf Dashboard, grupate pe secțiuni.
 ## profile
 
 - [Profilul tău](profile/personal/overview.md)
+
+## service app
+
+- [Service App — Prezentare generală, autentificare și navigare](service-app/basics/overview.md)
+- [Harta flotei și căutarea vehiculului prin cod QR](service-app/fleet/fleet-map.md)
+- [Pagina Vehicul — Comenzi, tickete, defecțiuni și alerte](service-app/fleet/vehicle-controls.md)
+- [Modul Batch — Gruparea mai multor vehicule într-o coadă](service-app/operations/batch-mode.md)
+- [Schimbarea bateriei — Pas cu pas](service-app/operations/battery-swap.md)
+- [Find Scooter — Localizarea unui vehicul prin Bluetooth](service-app/operations/finder.md)
+- [Instrumentele de back-office din Service App](service-app/tools/back-office-tools.md)
 
 ## settings
 
@@ -77,4 +92,23 @@ Toate ghidurile Ridewolf Dashboard, grupate pe secțiuni.
 - [Ticket Auto Review](support/tickets-proofs-chat/ticket-auto-review.md)
 - [Ticket — Detaliu](support/tickets-proofs-chat/ticket-detail.md)
 - [Tickete — Listă](support/tickets-proofs-chat/tickets.md)
+
+## user app
+
+- [Onboarding și Verificarea Riderului](user-app/account/onboarding-verification.md)
+- [Confidențialitate și ghid de siguranță](user-app/account/privacy.md)
+- [Profil — Detalii cont, parolă și ștergere](user-app/account/profile.md)
+- [Autentificare — Coduri, Parole și Autentificare prin Mesagerie](user-app/account/registration-login.md)
+- [Sesiuni — Dispozitivele autentificate în cont](user-app/account/sessions.md)
+- [Primii pași — Bazele aplicației pentru rideri](user-app/basics/getting-started.md)
+- [Aplicația pentru rideri (User App) — Prezentare generală](user-app/basics/overview.md)
+- [Aplicația pentru rideri — Setări](user-app/help/settings.md)
+- [Aplicația pentru rideri — Suport, întrebări frecvente și chat live](user-app/help/support.md)
+- [Aplicația pentru rideri — Statistici rider](user-app/money/analytics.md)
+- [Aplicația pentru rideri — Istoric (curse și plăți)](user-app/money/history.md)
+- [Aplicația pentru rideri — Metode de plată și fluxuri de reîncărcare](user-app/money/payment-methods.md)
+- [Aplicația pentru rideri — Abonamente și coduri promoționale](user-app/money/subscriptions.md)
+- [Aplicația pentru rideri — Portofel și reîncărcări](user-app/money/wallet.md)
+- [Aplicația pentru rideri — Hartă, rezervări și scanare](user-app/riding/map.md)
+- [Aplicația pentru rideri — Pornirea, pauza și încheierea unei curse](user-app/riding/rides.md)
 

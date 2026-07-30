@@ -1,6 +1,6 @@
 # Содержание
 
-Все руководства по Ridewolf Dashboard, сгруппированные по разделам.
+Все руководства Ridewolf, сгруппированные по разделам.
 
 [← Help Center](../../README.md)
 
@@ -31,6 +31,11 @@
 
 - [Добро пожаловать в Ridewolf Dashboard](getting-started/basics/overview.md)
 
+## legal
+
+- [Политика конфиденциальности Ridewolf](legal/policies/privacy-policy.md)
+- [Условия обслуживания Ridewolf](legal/policies/terms-of-service.md)
+
 ## operations
 
 - [Клиент — Создание и редактирование](operations/customers/client-create-edit.md)
@@ -49,6 +54,16 @@
 ## profile
 
 - [Ваш профиль](profile/personal/overview.md)
+
+## service app
+
+- [Service App — обзор, вход и навигация](service-app/basics/overview.md)
+- [Карта флота и поиск транспорта по QR-коду](service-app/fleet/fleet-map.md)
+- [Страница транспорта — управление, тикеты, неисправности и алерты](service-app/fleet/vehicle-controls.md)
+- [Batch mode — очередь из нескольких транспортных средств](service-app/operations/batch-mode.md)
+- [Battery Swap — шаг за шагом](service-app/operations/battery-swap.md)
+- [Find Scooter — поиск транспорта по Bluetooth](service-app/operations/finder.md)
+- [Инструменты бэк-офиса в Service App](service-app/tools/back-office-tools.md)
 
 ## settings
 
@@ -77,4 +92,23 @@
 - [Ticket Auto Review](support/tickets-proofs-chat/ticket-auto-review.md)
 - [Тикет — Детали](support/tickets-proofs-chat/ticket-detail.md)
 - [Тикеты — Список](support/tickets-proofs-chat/tickets.md)
+
+## user app
+
+- [Онбординг и верификация райдера](user-app/account/onboarding-verification.md)
+- [Privacy — политика конфиденциальности и рекомендации по безопасности](user-app/account/privacy.md)
+- [Профиль — данные аккаунта, пароль и удаление](user-app/account/profile.md)
+- [Вход в приложение — коды, пароли и вход через мессенджер](user-app/account/registration-login.md)
+- [Сессии — устройства, вошедшие в аккаунт](user-app/account/sessions.md)
+- [Первые шаги — основы райдер-приложения](user-app/basics/getting-started.md)
+- [Райдер-приложение — Обзор](user-app/basics/overview.md)
+- [Райдер-приложение — Настройки](user-app/help/settings.md)
+- [Райдер-приложение — Поддержка, FAQ и живой чат](user-app/help/support.md)
+- [Райдер-приложение — Статистика райдера](user-app/money/analytics.md)
+- [Райдер-приложение — История (поездки и платежи)](user-app/money/history.md)
+- [Райдер-приложение — Способы оплаты и сценарии пополнения](user-app/money/payment-methods.md)
+- [Райдер-приложение — Подписки и промокоды](user-app/money/subscriptions.md)
+- [Райдер-приложение — Кошелёк и пополнения](user-app/money/wallet.md)
+- [Райдер-приложение — Карта, резервации и сканирование](user-app/riding/map.md)
+- [Райдер-приложение — Старт, пауза и завершение поездки](user-app/riding/rides.md)
 

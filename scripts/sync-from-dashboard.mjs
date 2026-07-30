@@ -4,16 +4,17 @@ import { cp, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import { dirname, join, relative, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import { buildSummary, locales, markdownFiles } from './build-contents.mjs';
+
 const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const dashboardRoot = resolve(process.argv[2] ?? '');
 const sourceRoot = join(dashboardRoot, 'src/domains/help/content');
 const docsRoot = join(repoRoot, 'docs');
-const locales = ['en', 'ru', 'ro'];
-const contentsLabels = {
-  en: { title: 'Contents', intro: 'Browse all Ridewolf Dashboard guides by area.' },
-  ru: { title: 'Содержание', intro: 'Все руководства по Ridewolf Dashboard, сгруппированные по разделам.' },
-  ro: { title: 'Cuprins', intro: 'Toate ghidurile Ridewolf Dashboard, grupate pe secțiuni.' },
-};
+
+// Sections whose source of truth is NOT the dashboard help content — they are
+// imported from the rw-mcp knowledge base (user-app, service-app) or maintained
+// in this repo directly (legal). The dashboard sync must never delete them.
+const preservedSections = new Set(['user-app', 'service-app', 'legal']);
 
 if (!process.argv[2]) {
   console.error('Usage: node scripts/sync-from-dashboard.mjs /path/to/rw-dashboard');
@@ -26,16 +27,6 @@ const aliases = new Map([
   ['operations/fleet/vehicle-settings', 'settings/infrastructure/vehicle-settings'],
   ['operations/fleet/vehicles-list', 'operations/fleet/vehicles'],
 ]);
-
-async function markdownFiles(root) {
-  const result = [];
-  for (const entry of await readdir(root, { withFileTypes: true })) {
-    const path = join(root, entry.name);
-    if (entry.isDirectory()) result.push(...await markdownFiles(path));
-    if (entry.isFile() && entry.name.endsWith('.md')) result.push(path);
-  }
-  return result.sort();
-}
 
 async function rewriteLinks(localeRoot, file) {
   const original = await readFile(file, 'utf8');
@@ -56,40 +47,23 @@ async function rewriteLinks(localeRoot, file) {
   await writeFile(file, updated);
 }
 
-async function buildSummary(locale) {
-  const localeRoot = join(docsRoot, locale);
-  const files = await markdownFiles(localeRoot);
-  const groups = new Map();
-
-  for (const file of files) {
-    if (file.endsWith(`${sep}README.md`)) continue;
-    const path = relative(localeRoot, file).split(sep).join('/');
-    const [section] = path.split('/');
-    const firstLine = (await readFile(file, 'utf8')).split('\n')[0];
-    const title = firstLine.replace(/^#\s+/, '').trim();
-    if (!groups.has(section)) groups.set(section, []);
-    groups.get(section).push({ path, title });
-  }
-
-  const labels = contentsLabels[locale];
-  const lines = [`# ${labels.title}`, '', labels.intro, '', '[← Help Center](../../README.md)', ''];
-  for (const [section, articles] of groups) {
-    lines.push(`## ${section.replaceAll('-', ' ')}`, '');
-    for (const article of articles) lines.push(`- [${article.title}](${article.path})`);
-    lines.push('');
-  }
-  await writeFile(join(localeRoot, 'README.md'), `${lines.join('\n')}\n`);
-}
-
-await rm(docsRoot, { recursive: true, force: true });
-await mkdir(docsRoot, { recursive: true });
-
 for (const locale of locales) {
   const source = join(sourceRoot, locale);
   const destination = join(docsRoot, locale);
+  await mkdir(destination, { recursive: true });
+
+  // Surgical replace: drop only dashboard-owned entries, keep preserved sections.
+  for (const entry of await readdir(destination, { withFileTypes: true })) {
+    if (preservedSections.has(entry.name)) continue;
+    await rm(join(destination, entry.name), { recursive: true, force: true });
+  }
+
   await cp(source, destination, { recursive: true });
+
   for (const file of await markdownFiles(destination)) await rewriteLinks(destination, file);
   await buildSummary(locale);
 }
 
-console.log(`Synced ${locales.length} languages from ${sourceRoot}`);
+console.log(
+  `Synced ${locales.length} languages from ${sourceRoot} (preserved: ${[...preservedSections].join(', ')})`,
+);
