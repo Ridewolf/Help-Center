@@ -4,7 +4,7 @@ import { cp, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import { dirname, join, relative, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { buildSummary, locales, markdownFiles } from './build-contents.mjs';
+import { buildSummary, dashboardLocales, markdownFiles } from './build-contents.mjs';
 
 const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const dashboardRoot = resolve(process.argv[2] ?? '');
@@ -47,7 +47,10 @@ async function rewriteLinks(localeRoot, file) {
   await writeFile(file, updated);
 }
 
-for (const locale of locales) {
+// Only the languages the dashboard authors are imported. The remaining Help
+// Center languages are generated from English by translate-docs.mjs; re-run it
+// after a sync to refresh them.
+for (const locale of dashboardLocales) {
   const source = join(sourceRoot, locale);
   const destination = join(docsRoot, locale);
   await mkdir(destination, { recursive: true });
@@ -65,5 +68,5 @@ for (const locale of locales) {
 }
 
 console.log(
-  `Synced ${locales.length} languages from ${sourceRoot} (preserved: ${[...preservedSections].join(', ')})`,
+  `Synced ${dashboardLocales.length} languages from ${sourceRoot} (preserved: ${[...preservedSections].join(', ')})`,
 );

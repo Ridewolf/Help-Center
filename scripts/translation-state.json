@@ -1,0 +1,1445 @@
+{
+  "version": 1,
+  "sources": {
+    "analytics/reports/events.md": {
+      "hash": "f283a5a799cbeaea",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "analytics/reports/heatmaps.md": {
+      "hash": "9b42ba3302bfecba",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "analytics/reports/payments.md": {
+      "hash": "3be4c7ba20b13f17",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "analytics/reports/vehicles.md": {
+      "hash": "190a246e7f10a296",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "apps/tools/error-logs.md": {
+      "hash": "abb2a9e140de6a95",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "apps/tools/replay-player.md": {
+      "hash": "3c50860cb5140ffd",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "dashboard/home/overview.md": {
+      "hash": "db716824935a833f",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "features/navigation/overview.md": {
+      "hash": "3389443f1412855c",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "features/tables-and-filters/overview.md": {
+      "hash": "90edc4850a44a97c",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "features/ux/ai-chat.md": {
+      "hash": "7ddef8b55b340f2e",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "features/ux/notifications.md": {
+      "hash": "c390679ecca1ddd1",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "features/ux/themes.md": {
+      "hash": "1b2f3c2987b27c02",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "getting-started/basics/overview.md": {
+      "hash": "83b62429e1930c7a",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "legal/policies/privacy-policy.md": {
+      "hash": "0e65d4fee4d21deb",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "legal/policies/terms-of-service.md": {
+      "hash": "95448b931e34664e",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "operations/customers/client-create-edit.md": {
+      "hash": "605744485be39552",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "operations/customers/client-detail.md": {
+      "hash": "ca6b160a129ce475",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "operations/customers/clients.md": {
+      "hash": "cf6afe542f76765f",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "operations/fleet/vehicle-create-edit.md": {
+      "hash": "3fb44c4a15861564",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "operations/fleet/vehicle-detail.md": {
+      "hash": "5d91cfb80a5bc558",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "operations/fleet/vehicles.md": {
+      "hash": "9f7ce828fe4eea71",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "operations/maintenance/automation.md": {
+      "hash": "f5e2cad11fa563bc",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "operations/maintenance/inventory.md": {
+      "hash": "6ebe2f42875316de",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "operations/maintenance/tasks.md": {
+      "hash": "5e7bd22b2cee6bb8",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "operations/payments/payments.md": {
+      "hash": "5f550dcd16106172",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "operations/payments/pending-webhooks.md": {
+      "hash": "f3859a027c8b784d",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "operations/rebalance/dead-zones.md": {
+      "hash": "a278fe2de1439985",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "operations/rebalance/runs.md": {
+      "hash": "c420423fd809455b",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "operations/trips/ride-detail.md": {
+      "hash": "9764af107a27ba8c",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "operations/trips/rides.md": {
+      "hash": "6de7c82a8ce514ca",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "profile/personal/overview.md": {
+      "hash": "4ae45fe5ae080b87",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "service-app/basics/overview.md": {
+      "hash": "94128fc5942c5832",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "service-app/fleet/fleet-map.md": {
+      "hash": "a69a78fa3b51b9a3",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "service-app/fleet/vehicle-controls.md": {
+      "hash": "3f75e1f4f7f55c43",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "service-app/operations/batch-mode.md": {
+      "hash": "71998179cab8c6c0",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "service-app/operations/battery-swap.md": {
+      "hash": "a331280b8e4519bf",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "service-app/operations/finder.md": {
+      "hash": "e6013658af3d8214",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "service-app/tools/back-office-tools.md": {
+      "hash": "dc49a49e0d8b9cf1",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "settings/access/operators.md": {
+      "hash": "7a9461b9e121a002",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "settings/access/roles.md": {
+      "hash": "acdf27f0d28ae185",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "settings/administration/alerts-notifications.md": {
+      "hash": "050497dfd206bfb3",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "settings/administration/company-integrations.md": {
+      "hash": "d8585ee1f8d2e5ae",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "settings/administration/general.md": {
+      "hash": "e7041cf24b34ef12",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "settings/administration/localization.md": {
+      "hash": "df5bb21dae1d2ca0",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "settings/administration/my-company.md": {
+      "hash": "718f1bb135ebfdc4",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "settings/administration/your-app-publisher.md": {
+      "hash": "afae9bfd3a238935",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "settings/administration/your-app.md": {
+      "hash": "93551bd0e896951b",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "settings/content/faq-sets.md": {
+      "hash": "b7473908d9a91c98",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "settings/content/icon-sets.md": {
+      "hash": "2c02b99518653005",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "settings/content/quick-guides.md": {
+      "hash": "e1c7e79fac8973c3",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "settings/infrastructure/iot.md": {
+      "hash": "1e6ef70eb2c428b7",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "settings/infrastructure/tags.md": {
+      "hash": "b11b42c264079ae3",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "settings/infrastructure/vehicle-settings.md": {
+      "hash": "b946a06d9b8ecff1",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "settings/infrastructure/vehicle-tariffs.md": {
+      "hash": "6fc9bafaf004cb7d",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "settings/infrastructure/zones.md": {
+      "hash": "99039129f85ca9cf",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "support/tickets-proofs-chat/conversations.md": {
+      "hash": "cdcfb340166205be",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "support/tickets-proofs-chat/park-proof-auto-review.md": {
+      "hash": "f647471f996565b2",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "support/tickets-proofs-chat/park-proof-detail.md": {
+      "hash": "d3c352ba6e0e83c9",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "support/tickets-proofs-chat/park-proof-review.md": {
+      "hash": "b9e0950c3581b25f",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "support/tickets-proofs-chat/park-proofs.md": {
+      "hash": "771f0d480459da30",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "support/tickets-proofs-chat/quest-confirmations.md": {
+      "hash": "92909bf80d727d06",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "support/tickets-proofs-chat/ticket-auto-review.md": {
+      "hash": "cbddc700b0319c9a",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "support/tickets-proofs-chat/ticket-detail.md": {
+      "hash": "45eb4d8be5af3d71",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "support/tickets-proofs-chat/tickets.md": {
+      "hash": "be7e2c093816ca7b",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "user-app/account/onboarding-verification.md": {
+      "hash": "c30bb9ec6ef964e2",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "user-app/account/privacy.md": {
+      "hash": "cec9f43e01ad54bd",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "user-app/account/profile.md": {
+      "hash": "93f1e630e63ea30c",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "user-app/account/registration-login.md": {
+      "hash": "1028b8524eba7c58",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "user-app/account/sessions.md": {
+      "hash": "569d6d4d27d0d251",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "user-app/basics/getting-started.md": {
+      "hash": "dfb0477af1f86141",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "user-app/basics/overview.md": {
+      "hash": "a62171bd6ef0f3bd",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "user-app/help/settings.md": {
+      "hash": "bb701399b0d9ac66",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "user-app/help/support.md": {
+      "hash": "ad88e6075e920d9d",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "user-app/money/analytics.md": {
+      "hash": "eedd5c2e8bd6a1c4",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "user-app/money/history.md": {
+      "hash": "812e7de260df4414",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "user-app/money/payment-methods.md": {
+      "hash": "d37af8da711967e5",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "user-app/money/subscriptions.md": {
+      "hash": "ab874b27fe91332f",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "user-app/money/wallet.md": {
+      "hash": "fbc2d42f00acbdde",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "user-app/riding/map.md": {
+      "hash": "59246b9ce24b5725",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    },
+    "user-app/riding/rides.md": {
+      "hash": "4ae9df732a42e542",
+      "locales": [
+        "ar",
+        "de",
+        "el",
+        "es",
+        "fr",
+        "he",
+        "it",
+        "nl",
+        "pl",
+        "pt",
+        "sv",
+        "tr",
+        "uk"
+      ]
+    }
+  }
+}

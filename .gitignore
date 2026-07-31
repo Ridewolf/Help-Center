@@ -1,0 +1,5 @@
+# Local API keys for scripts/translate-docs.mjs
+.env
+
+# macOS
+.DS_Store
