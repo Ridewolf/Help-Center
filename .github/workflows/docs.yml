@@ -9,12 +9,16 @@ permissions:
   contents: read
 
 jobs:
-  links:
+  checks:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Check local links
+      - name: Check local links and heading anchors
         run: node scripts/check-links.mjs
+      - name: Check translation parity with English
+        run: node scripts/check-translations.mjs
+      - name: Check generated contents pages and language table
+        run: node scripts/build-contents.mjs --check
