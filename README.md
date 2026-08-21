@@ -1,6 +1,19 @@
-# Ridewolf Help Center
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ridewolf/city-flythrough/main/docs/logo-white.png">
+    <img src="https://raw.githubusercontent.com/Ridewolf/city-flythrough/main/docs/logo-dark.png" alt="Ridewolf" width="260">
+  </picture>
+  <h1>Ridewolf Help Center</h1>
+  <p>Official documentation and community support for the Ridewolf platform.<br>
+  Operator Dashboard, Rider App and field-operator Service App — in every language the product speaks.</p>
+</div>
 
-Official documentation and community support for the **Ridewolf platform** for shared-mobility fleets: the operator Dashboard, the Rider App, and the field-operator Service App.
+<p align="center">
+  <img alt="Docs" src="https://img.shields.io/badge/docs-Ridewolf-6f42c1">
+  <img alt="Languages" src="https://img.shields.io/badge/languages-16-3fb950">
+</p>
+
+---
 
 ## Choose your language
 
